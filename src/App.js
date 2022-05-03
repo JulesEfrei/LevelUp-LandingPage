@@ -4,8 +4,8 @@ import Header from "./components/Header"
 import AboutUs from "./components/AboutUs"
 import Features from "./components/Features"
 import FAQ from "./components/FAQ"
-import Form from "./components/Form"
-import Footer from "./components/Footer"
+// import Form from "./components/Form"
+// import Footer from "./components/Footer"
 
 
 
@@ -19,9 +19,9 @@ function App() {
 
       <Features />
 
-      {/* <FAQ />
+      <FAQ />
 
-      <Form />
+      {/* <Form />
 
       <Footer /> */}
 
