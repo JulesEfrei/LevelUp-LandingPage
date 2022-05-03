@@ -45,6 +45,3 @@ function NavBar() {
 }
 
 export default NavBar
-
-
-//style={ window.innerWidth < 750 ? display : { display: "flex" } }
