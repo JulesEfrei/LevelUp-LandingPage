@@ -14,7 +14,7 @@ function Header() {
 
         <NavBar />
 
-        <div className="container">
+        {/* <div className="container">
 
             <div className="text">
                 <h1>LevelUp your skills !</h1>
@@ -27,7 +27,7 @@ function Header() {
                 <img src="./assets/iphone.png" alt="Image of the application" />
             </div>
 
-        </div>
+        </div> */}
 
     </header>
   )
