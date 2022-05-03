@@ -16,7 +16,7 @@ function NavBar() {
 
         <div className="navbar" style={{ display: window.innerWidth < 750 ? display : "flex" }}> 
             <div className="item">
-                <a href="#">About Us</a>
+                <a href="#about">About Us</a>
             </div>
             <div className="item">
                 <a href="#">Features</a>
