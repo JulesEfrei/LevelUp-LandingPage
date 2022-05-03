@@ -24,7 +24,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 22%;
+    width: auto;
+
+    div:not(:last-child) {
+        margin-right: 2rem;
+    }
 }
 
 .name {
