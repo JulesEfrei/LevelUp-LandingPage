@@ -22,7 +22,7 @@ function NavBar() {
                 <a href="#features">Features</a>
             </div>
             <div className="item">
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
             </div>
             <div className="download">
                 <a href="#">Download App</a>
