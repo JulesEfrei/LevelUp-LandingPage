@@ -18,7 +18,7 @@ function Header() {
 
             <div className="text">
                 <h1>LevelUp your skills</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nobis illo aliquid tempora consequuntur placeat perspiciatis porro velit qui. Eos!</p>
+                <p>Boost your productivity, improve your skills and stay motivated with your activity tracker. LevelUp tracks all your activities and shows you your progress and where you lose time in a day to improve you.</p>
             </div>
 
             <div className="imgContainer">

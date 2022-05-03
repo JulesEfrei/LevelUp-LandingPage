@@ -19,6 +19,8 @@ function App() {
 
       <Features />
 
+      {/* blabla je te vend le produit */}
+
       <FAQ />
 
       {/* <Form />
