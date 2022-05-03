@@ -8,7 +8,7 @@ import NavBar from "./NavBar"
 
 function Header() {
   return (
-    <header>
+    <header id="header">
 
         <div className="box"></div>
 

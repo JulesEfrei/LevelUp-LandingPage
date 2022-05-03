@@ -17,9 +17,9 @@ function App() {
 
       <AboutUs />
 
-      {/* <Features />
+      <Features />
 
-      <FAQ />
+      {/* <FAQ />
 
       <Form />
 

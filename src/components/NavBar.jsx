@@ -19,7 +19,7 @@ function NavBar() {
                 <a href="#about">About Us</a>
             </div>
             <div className="item">
-                <a href="#">Features</a>
+                <a href="#features">Features</a>
             </div>
             <div className="item">
                 <a href="#">Contact</a>
