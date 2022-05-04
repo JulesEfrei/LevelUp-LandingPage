@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 10rem;
+    position: relative;
 
 
     .top {
@@ -12,6 +13,22 @@
 
         h1 {
             font-size: 3.5rem;
+            position: relative;
+
+            &::after{
+                content: "";
+                display: block;
+                position: absolute;
+                bottom: -2rem;
+                left: 0;
+                width: 100%;
+                height: 3rem;
+                background-image: url("../../public/assets/underline.svg");
+                background-repeat: none;
+                background-position: center;
+                background-size: cover;
+                opacity: .9;
+            }
         }
 
     }
@@ -29,6 +46,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        z-index: 10;
 
         &:hover{
             cursor: pointer;
@@ -88,11 +106,41 @@
     }
 }
 
+#faq {
+
+    .zigzagSvg, .arrowSvg {
+        position: absolute;
+        opacity: .6;
+    }
+
+    .zigzagSvg {
+        top: 0;
+        left: 200px;
+        transform: rotate(35deg);
+    }
+
+    .arrowSvg {
+        top: 0;
+        right: 0;
+        transform: translateX(40%);
+        z-index: 0;
+
+        img {
+            height: 400px;
+        }
+    }
+
+}
+
 @media only screen and (max-width: 1100px) {
 
 
     #faq .bottom {
         width: 100%;
+    }
+
+    #faq .zigzagSvg {
+        display: none;
     }
     
 

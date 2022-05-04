@@ -11,6 +11,9 @@ function Header() {
     <header id="header">
 
         <div className="box"></div>
+        <div className="topCircle">
+          <img src="./assets/Groupcircle.svg" alt="Circle SVG" />
+        </div>
 
         <NavBar />
 

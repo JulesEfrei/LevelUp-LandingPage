@@ -2,9 +2,13 @@ import React from 'react'
 
 import "../styles/about.scss"
 
-function AboutUs() {
+export default function About() {
   return (
     <section id="about">
+
+      <div className="squareSvg">
+        <img src="./assets/square.svg" alt="Square SVG" />
+      </div>
 
 
       <div className="top">
@@ -30,5 +34,3 @@ function AboutUs() {
     </section>
   )
 }
-
-export default AboutUs

@@ -32,6 +32,14 @@ function FAQ() {
     
     <section id="faq">
 
+      <div className="zigzagSvg">
+        <img src="./assets/zigzag.svg" alt="Square SVG" />
+      </div>
+
+      <div className="arrowSvg">
+        <img src="./assets/arrowGroup.svg" alt="Square SVG" />
+      </div>
+
       <div className="top">
         <h1>FAQ's</h1>
       </div>

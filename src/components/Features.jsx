@@ -31,6 +31,9 @@ function Features() {
   return (
     <section id="features">
 
+      <div className="plusSvg">
+        <img src="./assets/plus.svg" alt="" />
+      </div>
 
       <div className="top">
         <h1>Features</h1>

@@ -1,7 +1,7 @@
 import './styles/App.css';
 
 import Header from "./components/Header"
-import AboutUs from "./components/AboutUs"
+import About from "./components/About"
 import Features from "./components/Features"
 import FAQ from "./components/FAQ"
 import Contact from "./components/Contact"
@@ -15,7 +15,7 @@ function App() {
       
       <Header />
 
-      <AboutUs />
+      <About />
 
       <Features />
 
