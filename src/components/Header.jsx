@@ -17,7 +17,7 @@ function Header() {
         <div className="container">
 
             <div className="text">
-                <h1>LevelUp your skills</h1>
+                <h1>LevelUp your <span>skills</span></h1>
                 <p>Boost your productivity, improve your skills and stay motivated with your activity tracker. LevelUp tracks all your activities and shows you your progress and where you lose time in a day to improve you.</p>
             </div>
 
