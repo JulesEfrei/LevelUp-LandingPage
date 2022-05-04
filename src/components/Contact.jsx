@@ -6,6 +6,10 @@ function Contact() {
   return (
     <section id="contact">
 
+      <div className="circleSvg">
+        <img src="./assets/Groupcircle.svg" alt="" />
+      </div>
+
 
       <div className="top">
         <h1>Contact Us</h1>
