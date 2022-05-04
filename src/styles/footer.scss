@@ -1,0 +1,153 @@
+#footer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1D5AF7;
+
+    .top {
+        width: 100%;
+        background-color: white;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5rem;
+
+
+        .year, .location {
+            border-top: 1px solid black;
+            padding: 40px 0 0 70px;
+            position: relative;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            &::before {
+                display: block;
+                position: absolute;
+                top: -1px;
+                left: -10px;
+                padding: 0 30px;
+                border: 1px solid;
+                border-radius: 50px;
+                font-size: 1rem;
+            }
+        }
+
+        .year {
+            width: 35%;
+
+            &::before{
+                content: "Year";
+            }
+        }
+
+        .location {
+            width: 50%;
+
+            &::before{
+                content: "Location";
+            }
+        }
+    }
+
+    .bottom {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        padding: 0 5rem 3rem 5rem;
+        color: white;
+
+        .informationContainer {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+
+            .contact, .connect {
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            a {
+                color: white;
+            }
+
+            .infoTitle {
+                color: rgb(158, 158, 158);
+                margin-bottom: .5rem;
+            }
+
+            .menu {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                div a:not(:last-child) {
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media only screen and (max-width: 950px) {
+
+    #footer {
+
+
+        .informationContainer {
+            flex-direction: column;
+            align-items: flex-start;
+
+            div:not(:last-child) {
+                margin-bottom: 2rem;
+            }
+
+            .menu {
+                align-items: flex-start !important;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .year, .location {
+            width: 45% !important;
+        }
+
+    }
+
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    #footer {
+
+        .top {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .year, .location {
+            width: 90% !important;
+        }
+
+        .year {
+            margin-bottom: 2rem;
+        }
+
+    }
+
+
+}

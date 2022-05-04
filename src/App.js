@@ -5,7 +5,7 @@ import About from "./components/About"
 import Features from "./components/Features"
 import FAQ from "./components/FAQ"
 import Contact from "./components/Contact"
-// import Footer from "./components/Footer"
+import Footer from "./components/Footer"
 
 
 
@@ -25,7 +25,7 @@ function App() {
 
       <Contact />
 
-      {/* <Footer /> */}
+      <Footer />
 
 
     </div>
