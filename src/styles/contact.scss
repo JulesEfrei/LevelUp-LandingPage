@@ -139,3 +139,23 @@
 
 
 }
+
+@media only screen and (max-width: 750px) {
+
+    #contact {
+
+        .bottom {
+            width: 80%;
+        }
+
+        .form form input:not(:last-child) {
+            width: 75% !important;
+        }
+
+        .form form textarea {
+            width: 75% !important;
+        }
+
+    }
+
+}
