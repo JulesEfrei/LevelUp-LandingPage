@@ -129,6 +129,15 @@
                     border-radius: 5px;
                     margin-top: 1rem;
                     font-size: 1rem;
+                    border: 1px solid transparent;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: #1D5AF7;
+                        background-color: transparent;
+                        border-color: #1D5AF7;
+                        transition: all .2s ease;
+                    }
                 }
 
             }

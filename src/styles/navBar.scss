@@ -47,6 +47,19 @@ nav {
     background-color: white;
     padding: 5px 10px;
     border-radius: 5px;
+    border: 1px solid transparent;
+
+    &:hover {
+        background-color: #1D5AF7;
+        cursor: pointer;
+        transition: all .2s ease;
+        border-color: white;
+    }
+    
+    &:hover a {
+        color: white;
+        transition: all .3s ease;
+    }
 
     a {
         color: #1D5AF7;
