@@ -27,6 +27,45 @@
     <title>React App</title>
   </head>
   <body>
+
+    <form name="form-Info" method="post" hidden netlify>
+
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+
+    </form>
+
+    <form name="form-Beta" method="post" hidden netlify>
+
+      <input type="text" name="name" />
+      <input type="text" name="lastName" />
+      <input type="email" name="email" />
+      <textarea name="beta" cols="40" rows="7"></textarea>
+      <!-- <input type="submit" value="Submit Form" /> -->
+
+    </form>
+
+    <form name="form-NF" method="post" hidden netlify>
+
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="features" cols="40" rows="7"></textarea>
+
+    </form>
+
+    <form name="form-Bug" method="post" hidden netlify>
+
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <select name="appSelect"> 
+        <option value="app">LevelUp Application</option>
+        <option value="web">LevelUp Web Site</option>
+      </select>
+      <textarea name="bug" cols="40" rows="7"></textarea>
+
+    </form>
+
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

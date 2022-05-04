@@ -35,7 +35,8 @@ function Form({title, form}) {
             </div>
 
             <div className="form" style={{ display: display }}>
-                <form method="post">
+                <form method="post" name={`form-${form.id}`}>
+                    <input type="hidden" name="form-name" value="contact" />
                     {form.name.enable == true && ( <input type="text" name="name" id={`name${form.id}`} placeholder="Name" /> )}
                     {form.lastName.enable == true && ( <input type="text" name="lastName" id={`lastName${form.id}`} placeholder="Last Name" /> )}
                     {form.email.enable == true && ( <input type="email" name="email" id={`email${form.id}`} placeholder="E-mail" /> )}

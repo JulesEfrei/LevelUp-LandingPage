@@ -37,7 +37,7 @@ function Contact() {
             lastName: { enable: true },
             email: { enable: true },
             select: { enable: false },
-            message: { enable: true, placeholder: "Why ?" },
+            message: { enable: true, name: "beta", placeholder: "Why ?" },
           }}/>
 
           {/* New Features Form */}
@@ -47,7 +47,7 @@ function Contact() {
             lastName: { enable: false },
             email: { enable: true },
             select: { enable: false },
-            message: { enable: true, placeholder: "Message..." },
+            message: { enable: true, name: "features", placeholder: "Message..." },
           }}/>
 
           {/* Report Bug Form */}
@@ -57,7 +57,7 @@ function Contact() {
             lastName: { enable: false },
             email: { enable: true },
             select: { enable: true },
-            message: { enable: true, placeholder: "There is a bug with..." },
+            message: { enable: true, name: "bug", placeholder: "There is a bug with..." },
           }}/>
 
         </div>
