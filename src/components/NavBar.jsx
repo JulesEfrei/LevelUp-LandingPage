@@ -1,15 +1,36 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "../styles/navBar.scss"
 
 function NavBar() {
 
     const [rotate, setRotate] = useState(180)
     const [display, setDisplay] = useState("none")
+    const [dimensions, setDimensions] = React.useState({ 
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
 
+    // On mobile screen => toggle the visibility of the menu
     function toggle() {
         setRotate(rotate == 0 ? 180 : 0)
         setDisplay(display == "flex" ? "none" : "flex")
     }
+
+    
+    
+    // Will trigger the resizing of the screen and re-render the component because of the updated state to reapply the display condition on the container
+    useEffect(() => {
+        function handleResize() {
+            setDimensions({
+              height: window.innerHeight,
+              width: window.innerWidth
+            })
+        }
+
+        window.addEventListener('resize', handleResize)
+
+    }, [])
+    
 
   return (
     <nav>
@@ -22,7 +43,7 @@ function NavBar() {
                 <a href="#features">Features</a>
             </div>
             <div className="item">
-                <a href="#contact">Contact</a>
+                <a href="#contact">Contact</a> 
             </div>
             <div className="download">
                 <a href="#">Download App</a>
