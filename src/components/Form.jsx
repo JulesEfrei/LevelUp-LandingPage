@@ -61,16 +61,16 @@ function Form({title, form}) {
             <div className="form" style={{ display: display }}>
                 <form method="post" name={formName} onSubmit={verify}>
                     <input type="hidden" name="form-name" value={formName} />
-                    {form.name.enable == true && ( <input type="text" name="name" id={`name${form.id}`} placeholder="Name" onChange={(e) => setName(e.target.value)} /> )}
-                    {form.lastName.enable == true && ( <input type="text" name="lastName" id={`lastName${form.id}`} placeholder="Last Name" onChange={(e) => setLastName(e.target.value)} /> )}
-                    {form.email.enable == true && ( <input type="email" name="email" id={`email${form.id}`} placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} /> )}
+                    {form.name.enable == true && ( <input type="text" name="name" id={`name${form.id}`} placeholder="Name" onChange={(e) => setName(e.target.value)} required/> )}
+                    {form.lastName.enable == true && ( <input type="text" name="lastName" id={`lastName${form.id}`} placeholder="Last Name" onChange={(e) => setLastName(e.target.value)} required/> )}
+                    {form.email.enable == true && ( <input type="email" name="email" id={`email${form.id}`} placeholder="E-mail" onChange={(e) => setEmail(e.target.value)} required/> )}
                     {form.select.enable == true && ( 
-                        <select name="appSelect" id={`appSelect${form.id}`} onChange={(e) => setSelect(e.target.value)}> 
+                        <select name="appSelect" id={`appSelect${form.id}`} onChange={(e) => setSelect(e.target.value)} required> 
                             <option value="app">LevelUp Application</option>
                             <option value="web">LevelUp Web Site</option>
                         </select>
                     )}
-                    {form.message.enable == true && ( <textarea name={form.message.name} id={`text${form.id}`} cols="40" rows="7" placeholder={form.message.placeholder} onChange={(e) => setText(e.target.value)}></textarea> )}
+                    {form.message.enable == true && ( <textarea name={form.message.name} id={`text${form.id}`} cols="40" rows="7" placeholder={form.message.placeholder} onChange={(e) => setText(e.target.value)} required></textarea> )}
                     <input type="submit" value="Submit Form" />
                 </form>
             </div>
