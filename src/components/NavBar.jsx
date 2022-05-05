@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "../styles/navBar.scss"
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function NavBar() {
 
@@ -30,6 +32,18 @@ function NavBar() {
         window.addEventListener('resize', handleResize)
 
     }, [])
+
+    function popup() {
+        toast.info('Please, complete the Beta-Tester Form', {
+            position: "top-right",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+    }
     
 
   return (
@@ -45,8 +59,8 @@ function NavBar() {
             <div className="item">
                 <a href="#contact">Contact</a> 
             </div>
-            <div className="download">
-                <a href="#">Download App</a>
+            <div className="download" onClick={() => popup()}>
+                <a href="#contact">Download App</a>
             </div>
         </div>
 
@@ -60,6 +74,8 @@ function NavBar() {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z"/></svg>    
             </button>
         </div>
+
+        <ToastContainer />
 
     </nav>
   )
