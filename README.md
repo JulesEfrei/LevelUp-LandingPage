@@ -56,10 +56,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://level-up-skills.netlify.app/)
 
-<br/>
-Landing Page for LevelUp application ([Link of the project](https://github.com/JulesEfrei/LevelUp))
+
+Landing Page for LevelUp application [Link of the project](https://github.com/JulesEfrei/LevelUp)
 
 
 **State of the Project => v.0.7.0**
