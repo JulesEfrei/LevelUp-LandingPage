@@ -24,3 +24,8 @@ ul {
 button:hover, input[type=submit]:hover {
   cursor: pointer;
 }
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}

@@ -37,7 +37,7 @@ function NavBar() {
 
         <div className="navbar" style={{ display: window.innerWidth < 750 ? display : "flex" }}> 
             <div className="item">
-                <a href="#about">About Us</a>
+                <a href="#about">About</a>
             </div>
             <div className="item">
                 <a href="#features">Features</a>

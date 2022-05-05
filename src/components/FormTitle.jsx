@@ -30,8 +30,6 @@ const svg = {
 }
 
 const container = {
-    border: "1px solid black",
-    borderRadius: 50,
     marginRight: "1rem",
     width: 35,
     height: 35,
