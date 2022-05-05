@@ -26,6 +26,5 @@ button:hover, input[type=submit]:hover {
 }
 
 #root {
-  width: 100%;
   overflow-x: hidden;
 }
