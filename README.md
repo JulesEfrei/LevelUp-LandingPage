@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   
-  <img src="public/assets/logo.png" alt="Logo" width="80" height="80" />
+  <img src="public/logo.png" alt="Logo" width="80" height="80" />
 
   <h2 align="center">LevelUp (Landing Page)</h2>
 
