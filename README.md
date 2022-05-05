@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   
-  <img src="public/logo.png" alt="Logo" width="80" height="80" />
+  <img src="public/logo.png" alt="Logo" width="90" height="80" />
 
   <h2 align="center">LevelUp (Landing Page)</h2>
 
@@ -59,8 +59,9 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 * What the application does ?
-* State of the Project (Alpha, Beta, Realeased)
-* Main difficulties - [Roadmap](#roadmap)
+
+
+**State of the Project => v.0.7.0)**
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -71,14 +72,8 @@
 
 This section should list any major frameworks/libraries used to bootstrap your project.
 
-* [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Netlify](https://www.netlify.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -89,11 +84,10 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 Here is the roadmap of the project. Checked flags mean the features is out and unchecked flags mean that the feature is comming.
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Add Basic Sections
+- [x] Add Functionnal Forms
+- [ ] Custom verification of each form
+- [ ] Add a section (To sell it)
 
 See the [open issues](https://github.com/JulesEfrei/LevelUp-LandingPage/issues) for a full list of proposed features (and known issues).
 
@@ -144,7 +138,7 @@ GitHub Profile: [JulesEfrei](https://github.com/JulesEfrei/)
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information. If no license is available in the repository, it will be available one day, I hope.
+Distributed under the MIT License. See `LICENSE` for more information. If no license is available in the repository, it will be available one day, I hope.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -163,7 +157,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information. If no
 [issues-shield]: https://img.shields.io/github/issues/JulesEfrei/LevelUp-LandingPage.svg?style=for-the-badge
 [issues-url]: https://github.com/JulesEfrei/LevelUp-LandingPage/issues
 [license-shield]: https://img.shields.io/github/license/JulesEfrei/LevelUp-LandingPage.svg?style=for-the-badge
-[license-url]: https://github.com/JulesEfrei/LevelUp-LandingPage/blob/master/LICENSE.txt
+[license-url]: https://github.com/JulesEfrei/LevelUp-LandingPage/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jules-bruzeau/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: public/screenshot.png
