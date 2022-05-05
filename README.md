@@ -13,12 +13,12 @@
 <br />
 <div align="center">
   
-  <img src="public/logo.png" alt="Logo" width="80" height="90" />
+  <img src="public/logo.png" alt="Logo" width="80" height="100" />
 
   <h2 align="center">LevelUp (Landing Page)</h2>
 
   <p align="center">
-    Short description
+    Landing Page for LevelUp application
     <br />
     <!-- <a href="https://github.com/JulesEfrei/LevelUp-LandingPage"><strong>Explore the docs</strong></a> -->
     <br />
@@ -58,7 +58,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-* What the application does ?
+Landing Page for LevelUp application ([Link of the project](https://github.com/JulesEfrei/LevelUp))
 
 
 **State of the Project => v.0.7.0)**
