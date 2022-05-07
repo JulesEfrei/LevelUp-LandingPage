@@ -37,7 +37,11 @@ function Features() {
 
       <div className="top">
         <h1>Features</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, error sit! Dolores nobis unde labore suscipit deleniti quia obcaecati cum, repellat doloribus beatae iure dolorem. Error expedita reprehenderit asperiores aspernatur!</p>
+        <p>
+        LevelUp combines several applications in one thanks to its many features, both current and future.
+        Here are some of them. You can also propose your own features in the form below. We are listening
+        to you!
+        </p>
       </div>
 
       <div className="bottom">
