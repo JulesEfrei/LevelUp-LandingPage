@@ -40,7 +40,14 @@ export default function About() {
 
         <div className="right">
           <h2>Track your activities and improve your skills</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit dolorum harum dolore obcaecati dolores quo, voluptatum odit magnam voluptatem repellendus temporibus voluptate est, accusamus exercitationem eveniet? Velit culpa, ea est asperiores ratione libero error nemo, assumenda laborum totam, illum quasi. Laudantium ullam minima nam aliquam est similique, earum dignissimos repellendus ducimus, debitis soluta fugit quam fugiat velit dicta harum recusandae nesciunt beatae blanditiis, commodi deserunt iste ab ratione quaerat? Ea eligendi cumque aliquam molestiae sit suscipit, vero, distinctio error illo sequi exercitationem reprehenderit libero, ad modi omnis. Laudantium, eos beatae repellat asperiores commodi, sapiente architecto sint ut perferendis soluta recusandae!</p>
+          <p>
+          LevelUp's goal is to improve you. It's ambitious but we rely on all your feedback and needs to make it possible.
+          Staying motivated and productive is quite complicated, we often get distracted or waste time on things that don't
+          deserve it. The same is true for longer periods of time with other problems like staying motivated when our goal is
+          far from being reached. Our goal is to increase your productivity by tracking every single activity you perform to
+          help you identify areas for improvement. But LevelUp does not stop here, you can define your goals directly in the
+          application and follow your progress to reach your goals whatever they are.
+          </p>
           <a href="#contact" onClick={() => popup()}>Download LevelUp</a>
         </div>
 
