@@ -75,7 +75,7 @@ function NavBar() {
             </button>
         </div>
 
-        <ToastContainer />
+        {/* <ToastContainer /> */}
 
     </nav>
   )

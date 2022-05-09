@@ -3,6 +3,7 @@ import React from 'react'
 import "../styles/header.scss"
 
 import NavBar from "./NavBar"
+import { ToastContainer, toast } from 'react-toastify';
 
 
 
@@ -11,11 +12,14 @@ function Header() {
     <header id="header">
 
         <div className="box"></div>
+
+        <NavBar />
+
+
         <div className="topCircle">
           <img src="./assets/Groupcircle.svg" alt="Circle SVG" />
         </div>
 
-        <NavBar />
 
         <div className="container">
 
@@ -31,6 +35,8 @@ function Header() {
             </div>
 
         </div>
+
+        <ToastContainer />
 
     </header>
   )
