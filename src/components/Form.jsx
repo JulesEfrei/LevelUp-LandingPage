@@ -33,21 +33,6 @@ function Form({title, form}) {
         marginBottom: 0
     }
 
-    function verify(event) {
-
-        console.log("In build...")
-
-    //     // Get all enabled input
-    //     const inputEnable = Object.keys(form).slice(1).reduce((prev, curr) =>  [...prev, Object.values(form[curr])[0] && curr ] , []).filter(elm => elm != false)
-
-    //     //Test if one of the required input is empty
-        
-
-    //     //Stop the default event and display error popup
-    //     event.preventDefault()
-
-    }
-
   return (
     <div className="formContainer">
 
@@ -59,7 +44,7 @@ function Form({title, form}) {
             </div>
 
             <div className="form" style={{ display: display }}>
-                <form method="post" name={formName} onSubmit={verify}>
+                <form method="post" name={formName}>
                     <input type="hidden" name="form-name" value={formName} />
                     {form.name.enable == true && ( <input type="text" name="name" id={`name${form.id}`} placeholder="Name" onChange={(e) => setName(e.target.value)} required/> )}
                     {form.lastName.enable == true && ( <input type="text" name="lastName" id={`lastName${form.id}`} placeholder="Last Name" onChange={(e) => setLastName(e.target.value)} required/> )}
