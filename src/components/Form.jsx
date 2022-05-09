@@ -7,7 +7,7 @@ function Form({title, form}) {
     const [display, setDisplay] = useState("none")
     const [arrow, setArrow] = useState(0)
 
-    const [formName, setFormName] = useState(form.id)
+    const [formName, setFormName] = useState(`form-${form.id}`)
 
     const [name, setName] = useState("")
     const [lastName, setLastName] = useState("")
