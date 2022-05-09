@@ -29,9 +29,9 @@ function Header() {
             </div>
 
             <div className="imgContainer">
-                <img src="./assets/iphone.png" alt="Image of the application" />
-                <img src="./assets/iphone.png" alt="Image of the application" />
-                <img src="./assets/iphone.png" alt="Image of the application" />
+                <img src="./assets/cate.png" alt="Image of the application" />
+                <img src="./assets/main.png" alt="Image of the application" />
+                <img src="./assets/add.png" alt="Image of the application" />
             </div>
 
         </div>

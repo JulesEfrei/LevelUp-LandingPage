@@ -34,7 +34,7 @@ export default function About() {
       <div className="bottom">
 
         <div className="left">
-          <img src="./assets/iphone.png" alt="Screen of the application" />
+          <img src="./assets/main.png" alt="Screen of the application" />
           <div className="box"></div>
         </div>
 
