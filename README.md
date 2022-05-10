@@ -62,7 +62,7 @@
 Landing Page for LevelUp application [Link of the project](https://github.com/JulesEfrei/LevelUp)
 
 
-**State of the Project => v.0.7.0**
+**State of the Project => v.1.0.0**
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
